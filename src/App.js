@@ -40,17 +40,17 @@ function App() {
       <footer class="footer p-10 bg-neutral text-neutral-content pl-24">
       <nav>
         <header class="footer-title">Contacts</header> 
-        <a class="link link-hover">Prof.Sasmoko</a>
-        <a class="link link-hover">sasmoko@binus.edu</a>
-        <a class="link link-hover">Research Interest Group Leader</a>
-        <a class="link link-hover">RIG Educational Technology Binus</a>
+        <p pclass="link link-hover">Prof.Sasmoko</p>
+        <p class="link link-hover">sasmoko@binus.edu</p>
+        <p class="link link-hover">Research Interest Group Leader</p>
+        <p class="link link-hover">RIG Educational Technology Binus</p>
       </nav> 
       <nav>
         <header class="footer-title">Company</header> 
-        <a class="link link-hover">RIG Educational Technology</a>
-        <a class="link link-hover">Jl. K. H. Syahdan No. 9, Kemanggisan, Palmerah</a>
-        <a class="link link-hover">Jakarta 11480 Indonesia</a>
-        <a class="link link-hover">Phone +62 21 534 5830</a>
+        <p class="link link-hover">RIG Educational Technology</p>
+        <p class="link link-hover">Jl. K. H. Syahdan No. 9, Kemanggisan, Palmerah</p>
+        <p class="link link-hover">Jakarta 11480 Indonesia</p>
+        <p class="link link-hover">Phone +62 21 534 5830</p>
       </nav> 
     </footer>
     </div>
