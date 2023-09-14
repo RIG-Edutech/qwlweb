@@ -1,6 +1,5 @@
 import working_img from './young_women_working_with_laptop.png';
 import app_view1 from './QWL_landing.png';
-import app_view2 from './QWL_capture.png';
 import './App.css';
 
 
