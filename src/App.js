@@ -11,8 +11,8 @@ function App() {
           <div className="w-1/2 px-36">
             <img src={working_img} className="working_img" alt="working_img" />
           </div>
-          <div className="w-1/2 pt-20  pb-48 pl-16">
-            <h1 className='text-8xl text-left'>“The key is not to prioritize what’s on your schedule, but to schedule your priorities.”</h1>
+          <div className="w-1/2 pt-16 pb-48 pl-16">
+            <h1 className='text-6xl text-left'>“The key is not to prioritize what’s on your schedule, but to schedule your priorities.”</h1>
             <h4 className='text-4xl pt-8 text-left'>– Stephen Covey</h4>
           </div>
         </div>
