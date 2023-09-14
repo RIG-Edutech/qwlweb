@@ -8,7 +8,7 @@
     "node": ">=12.13.0"
   },
   "scripts": {
-    "heroku-postbuild": "npm install && npm run build",
+    "heroku-postbuild": "npm install react-scripts && npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
