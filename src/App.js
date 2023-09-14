@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className='first'>
         <div className="flex pt-32">
-          <div className="w-1/2 px-44">
+          <div className="w-1/2 px-36">
             <img src={working_img} className="working_img" alt="working_img" />
           </div>
           <div className="w-1/2 pt-20  pb-48 pl-16">
