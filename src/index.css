@@ -21,3 +21,20 @@ code {
   display: flex;
   background-image: linear-gradient(to right, rgb(249, 243, 231), rgb(153, 194, 188));
 }
+.tutorial-section{
+  background-image: linear-gradient(to bottom,  rgb(254 243 199), rgb(249, 243, 231),rgb(231, 236, 235), rgb(153, 194, 188));
+}
+
+.next-button-container {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+}
+.prev-button-container {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: 10;
+}
