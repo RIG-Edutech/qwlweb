@@ -3,7 +3,7 @@ import working_img from '../young_women_working_with_laptop.png';
 import app_view1 from '../QWL_landing.png';
 import NavBar from '../components/NavBar';
 
-import ScrollAnimation from 'react-animate-on-scroll';
+// import ScrollAnimation from 'react-animate-on-scroll';
 const Homepage = () => {
     // const [lanscapeFirst, setLandsacpeFirst] = useState(window.innerWidth / window.innerHeight);
     // useEffect(() => {
@@ -70,13 +70,13 @@ const Homepage = () => {
                     </div>
                     <div className="mt-12 sm:mt-16 lg:mt-0">
                         <div className="pl-4 -mr-48 sm:pl-6 md:-mr-16 lg:px-0 lg:m-0 lg:absolute lg:h-full pt-4">
-                            <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                            {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}> */}
                                 <img
                                     className="md:px-8 w-fit lg:absolute lg:left-0 lg:h-auto lg:w-auto lg:max-w-none"
                                     src={app_view1}
                                     alt="App View"
                                 />
-                            </ScrollAnimation>
+                            {/* </ScrollAnimation> */}
                         </div>
                     </div>
                 </div>

@@ -10,7 +10,7 @@ import start_testing from '../img/start_testing.jpg'
 import face_capture from '../img/face_capture.jpg'
 import { Carousel } from 'react-responsive-carousel'
 import "react-responsive-carousel/lib/styles/carousel.min.css"
-import ScrollAnimation from 'react-animate-on-scroll'
+// import ScrollAnimation from 'react-animate-on-scroll'
 
 const benefits = [
     {
@@ -68,7 +68,7 @@ export default function About() {
             <div className='tutorial-section pt-12'>
                 <h1 className='text-4xl pl-4 pb-8 text-center'>How to use application</h1>
                 <div>
-                <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
+                {/* <ScrollAnimation animateIn="fadeIn" animateOnce={true}> */}
                     <Carousel className="rounded-2xl px-32 " transitionTime={2000} animationHandler={"fade-slide"} infiniteLoop={true} showArrows={true}  useKeyboardArrows={true} interval={2000} swipeable={true} renderArrowNext={(clickHandler, hasNext) => {
                         return (
                             hasNext && (
@@ -154,7 +154,7 @@ export default function About() {
                             </div>
                         </div>
                     </Carousel>
-                    </ScrollAnimation>
+                    {/* </ScrollAnimation> */}
                 </div>
                 
                 {/* <div className="pl-12 pr-12 grid grid-cols-1 lg:grid-cols-3 gap-12 xl:col-span-2">
