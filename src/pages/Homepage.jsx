@@ -51,12 +51,12 @@ const Homepage = () => {
                         <div>
 
                             <div className="mt-6 lg:pt-48">
-                                <ScrollAnimation animateIn="fadeIn">
+                                
 
                                     <h2 className="text-6xl font-extrabold tracking-tight text-gray-900">
                                         Measure Your Work Life Quality
                                     </h2>
-                                </ScrollAnimation>
+                                
                                 <div className="mt-6">
                                     <a
                                         href="https://play.google.com/store/apps/details?id=com.qwl.teacher_qwl1&pcampaignid=web_share"
